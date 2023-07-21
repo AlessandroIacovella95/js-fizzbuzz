@@ -8,7 +8,7 @@ Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda 
 const bonus = document.querySelector('.bonus');
 
 //Creazione numeri da 1 a 100 con ciclo **FOR**//
-for (let i = 1; i < 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     // crea un nuovo elemento nel DOM
     let newElement = document.createElement('div');
