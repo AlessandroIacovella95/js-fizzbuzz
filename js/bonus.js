@@ -20,18 +20,26 @@ for (let i = 1; i < 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
 
     //inserisci il testo corretto in base alla condizione, nel newElement: appena creato
+        newElement.classList.add ('custom')
+        newElement.style.backgroundColor = '#F0466F'
         newElement.append('FizzBuzz');
 
     //ALTRIMENTI SE sono multipli solo di 3, stampo la scritta FIZZ
     } else if (i % 3 == 0) {
+        newElement.classList.add ('custom')
+        newElement.style.backgroundColor = '#0CD6A1'
         newElement.append('Fizz');
 
     //ALTRIMENTI SE sono multipli solo di 5, stampo la scritta BUZZ    
     } else if (i % 5 == 0) { 
+        newElement.classList.add ('custom')
+        newElement.style.backgroundColor = '#FFD166'
         newElement.append('Buzz');
 
     //ALTRIMENTI stampo il numero      
     } else {
+        newElement.classList.add ('custom')
+        newElement.style.backgroundColor = '#1389B2'
         newElement.append(i);
     }
 }
